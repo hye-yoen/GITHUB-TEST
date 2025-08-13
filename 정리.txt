@@ -1,2 +1,0 @@
-git clone < 파일 변경 X(처음
-git pull <파일 변경 된 후
