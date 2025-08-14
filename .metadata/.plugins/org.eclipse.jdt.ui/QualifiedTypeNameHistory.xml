@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Ch01.C06Simple"/>
+    <fullyQualifiedTypeName name="Ch01.C07Simple"/>
+    <fullyQualifiedTypeName name="Ch01.C08ConstructorMain"/>
+    <fullyQualifiedTypeName name="Ch01.C08Simple"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="C02.C01Person"/>
+    <fullyQualifiedTypeName name="Ch02.C03Simple"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>
