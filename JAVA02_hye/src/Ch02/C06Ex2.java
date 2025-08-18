@@ -107,7 +107,7 @@ class Profile{
 			this.job.equals(result) &&
 			this.major.equals(result)	)
 			return true;
-		e
+		else return false;
 	}
 
 	

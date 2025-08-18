@@ -1,7 +1,3 @@
-2025/08/14-09:06:19.607 acc Reusing MANIFEST C:\Users\Administrator\Downloads\a\Java-class-memory\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
-2025/08/14-09:06:19.613 acc Recovering log #6
-2025/08/14-09:06:19.614 acc Level-0 table #9: started
-2025/08/14-09:06:19.619 acc Level-0 table #9: 190 bytes OK
-2025/08/14-09:06:19.619 acc Recovering log #9
-2025/08/14-09:06:19.620 acc Reusing old log C:\Users\Administrator\Downloads\a\Java-class-memory\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000009.log 
-2025/08/14-09:06:19.622 acc Delete type=0 #6
+2025/08/14-18:01:47.740 1bc4 Reusing MANIFEST C:\Users\Administrator\Downloads\a\Java-class-memory\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/MANIFEST-000001
+2025/08/14-18:01:47.746 1bc4 Recovering log #9
+2025/08/14-18:01:47.747 1bc4 Reusing old log C:\Users\Administrator\Downloads\a\Java-class-memory\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Site Characteristics Database/000009.log 
