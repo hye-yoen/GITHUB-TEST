@@ -4,8 +4,15 @@
     <fullyQualifiedTypeName name="Ch01.C07Simple"/>
     <fullyQualifiedTypeName name="Ch01.C08ConstructorMain"/>
     <fullyQualifiedTypeName name="Ch01.C08Simple"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="C02.C01Person"/>
     <fullyQualifiedTypeName name="Ch02.C03Simple"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="Ch03.C04Person"/>
+    <fullyQualifiedTypeName name="Ch04.C01Simple"/>
+    <fullyQualifiedTypeName name="Ch04.Company"/>
+    <fullyQualifiedTypeName name="Ch04.ShopService"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 </qualifiedTypeNameHistroy>

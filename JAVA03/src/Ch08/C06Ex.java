@@ -25,9 +25,13 @@ public class C06Ex {
 			conn = DriverManager.getConnection(url,id,pw);
 			System.out.println("연결 성공");
 			//01.tbl_charge에 insert 코드 실행
-			pstmt = conn.prepareStatement("insert into charge_station values(?,?)"); //SQL 문
-			pstmt.setInt(1, Integer.parseInt(args[0]));  //첫번재 물음표에 들어갈 숫자
-			pstmt.setString(2, args[1]); //두번째 물을표에 들어갈 문자
+			pstmt = conn.prepareStatement("insert into charge_station values(?,?,?,?,?,?)"); //SQL 문
+			pstmt.setInt(1, Integer.parseInt(args[0]));  
+			pstmt.setString(2, args[1]); 
+			pstmt.setString(3, args[2]); 
+			pstmt.setString(4, args[3]); 
+			pstmt.setInt(5, Integer.parseInt(args[4]));
+			pstmt.setString(6, args[5]); 
 			
 			int result = pstmt.executeUpdate();
 			if (result>0) System.out.println("INSERT 성공");
@@ -40,10 +44,11 @@ public class C06Ex {
 			System.out.println("클래스 부제 예외");
 		}catch(SQLException e2){
 			System.out.println("SQL 예외");
-		}catch(ArrayIndexOutOfBoundsException e3) {
-			System.out.println("배열이 안 맞음");
 		}
-		
+//		catch(ArrayIndexOutOfBoundsException e3) {
+//			System.out.println("배열이 안 맞음");
+//		}
+//		
 		
 		
 	}
