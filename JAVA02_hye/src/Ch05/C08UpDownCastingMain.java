@@ -21,6 +21,7 @@ public class C08UpDownCastingMain {
 		ob2.func1();
 		ob2.func2();
 		
+		System.out.println("+=============");
 		//Upcasting
 		Parent ob3 = new Son();
 		ob3.func1();
