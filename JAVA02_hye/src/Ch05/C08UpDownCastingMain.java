@@ -29,8 +29,8 @@ public class C08UpDownCastingMain {
 		
 		
 		//Upcasting 된 상태에서 
-		//확장된(멤버추가) 멤버변수 접근 가능할까? -> Downcasting 사용가능
-		//확장된(멤버추가) 멤버함수 접근 가능할까? -> Downcasting 사용가능
+		//확장된(멤버추가) 멤버변수 접근 가능할까? -> Downcasting 해야 가능
+		//확장된(멤버추가) 멤버함수 접근 가능할까? -> Downcasting 해야 가능
 		//새 정의 된 멤버함수 접근 가능한가? O!!
 	}
 }
