@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class C05FileInputStreamMain {
 	public static void main(String[] args) throws IOException{
 		InputStream fin = new FileInputStream("c:\\IOTEST\\test.pdf");
-		
+		//2byte 기반 이미지 동영상 파일 등등..
 		long startTime = System.currentTimeMillis();
 		StringBuffer stringbuffer = new StringBuffer();
 		byte[] buff = new byte[10000];

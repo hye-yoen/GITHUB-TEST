@@ -25,7 +25,10 @@ public class C07FileCopyMain {
           if(data==-1)
                break;
             
-          fout.write(buff,0,data);
+          fout.write(buff,0,data); 
+          //buff 배열의 0번 인덱스부터 data개 만큼만 출력
+          //실제 읽은 데이터 양(data) 만큼만 파일에 씀
+          //그냥 buff넣으면 이전에 읽었던 쓰레기 데이터 그대로 파일에 복사됨
           fout.flush();
          
         	}
