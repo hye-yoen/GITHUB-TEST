@@ -13,7 +13,7 @@ public class C05FileInputStreamMain {
 		byte[] buff = new byte[10000];
 		//read
 		while(true) {
-			int data = fin.read(buff);
+			int data = fin.read(buff);//buff만큼의 데이터 읽기
 			if(data == -1) 
 				break;
 //			System.out.print(data);

@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class C04BufferAddMain {
 	public static void main(String[] args) throws IOException{
 		Reader fin =new FileReader("c:\\IOTEST\\origin.txt");
-		
+		//1byte 기반 텍스트 파일만 가능 
 		long startTime = System.currentTimeMillis();
 		
 		StringBuffer strBuffer = new StringBuffer();//내부버퍼 생성

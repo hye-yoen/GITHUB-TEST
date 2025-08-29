@@ -16,7 +16,7 @@ public class C03DataInoutStreamMain {//통신프로그램
 		
 		FileInputStream in = new FileInputStream("c:\\IOTEST\\test3.txt");
 		DataInputStream din = new DataInputStream(in);
-		String name= din.readUTF();
+		String name= din.readUTF(); 
 		System.out.println(name);
 		double weight = din.readDouble();
 		System.out.println(weight);

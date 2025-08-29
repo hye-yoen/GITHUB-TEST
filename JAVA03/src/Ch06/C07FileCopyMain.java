@@ -19,9 +19,7 @@ public class C07FileCopyMain {
       long startTime = System.currentTimeMillis();
       byte[] buff = new byte[4096];
       while(true)
-      {
-            
-          int data = fin.read(buff); //date리턴 , 들어오는 데이터의 바이트 수
+      {   int data = fin.read(buff); //date리턴 , 들어오는 데이터의 바이트 수
           if(data==-1)
                break;
             

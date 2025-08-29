@@ -7,7 +7,7 @@ import java.io.Reader;
 public class C02ReadLineMain {
 	
 	public static void main(String[] args) throws Exception{
-		
+		//파일 생성 겸 파일 쓰기
 //		Writer out = new FileWriter("c:\\IOTEST\\test2.txt");
 //		BufferedWriter bout = new BufferedWriter(out);	
 //		PrintWriter pout = new PrintWriter(bout);
